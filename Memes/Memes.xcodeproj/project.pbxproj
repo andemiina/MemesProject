@@ -13,6 +13,9 @@
 		153A20172C7B76D500D4074B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 153A20162C7B76D500D4074B /* Base */; };
 		153A20192C7B76D800D4074B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153A20182C7B76D800D4074B /* Assets.xcassets */; };
 		153A201C2C7B76D800D4074B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 153A201B2C7B76D800D4074B /* Base */; };
+		15DB62AF2C7CC8F9009A7449 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15DB62A12C7CC8F9009A7449 /* Roboto-Bold.ttf */; };
+		15DB62B62C7CC8F9009A7449 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15DB62A82C7CC8F9009A7449 /* Roboto-Regular.ttf */; };
+		15DB62BA2C7CCBA1009A7449 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15DB62B92C7CCBA1009A7449 /* Roboto-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		153A20182C7B76D800D4074B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153A201B2C7B76D800D4074B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		153A201D2C7B76D800D4074B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DB62A12C7CC8F9009A7449 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		15DB62A82C7CC8F9009A7449 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		15DB62B92C7CCBA1009A7449 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../../../Downloads/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,22 @@
 				153A20112C7B76D500D4074B /* SceneDelegate.swift */,
 				153A20132C7B76D500D4074B /* ViewController.swift */,
 				153A20152C7B76D500D4074B /* Main.storyboard */,
-				153A20182C7B76D800D4074B /* Assets.xcassets */,
-				153A201A2C7B76D800D4074B /* LaunchScreen.storyboard */,
-				153A201D2C7B76D800D4074B /* Info.plist */,
+				15DB62AB2C7CC8F9009A7449 /* Resources */,
 			);
 			path = Memes;
+			sourceTree = "<group>";
+		};
+		15DB62AB2C7CC8F9009A7449 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				153A201D2C7B76D800D4074B /* Info.plist */,
+				153A20182C7B76D800D4074B /* Assets.xcassets */,
+				153A201A2C7B76D800D4074B /* LaunchScreen.storyboard */,
+				15DB62A12C7CC8F9009A7449 /* Roboto-Bold.ttf */,
+				15DB62A82C7CC8F9009A7449 /* Roboto-Regular.ttf */,
+				15DB62B92C7CCBA1009A7449 /* Roboto-Medium.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DB62AF2C7CC8F9009A7449 /* Roboto-Bold.ttf in Resources */,
+				15DB62B62C7CC8F9009A7449 /* Roboto-Regular.ttf in Resources */,
+				15DB62BA2C7CCBA1009A7449 /* Roboto-Medium.ttf in Resources */,
 				153A20192C7B76D800D4074B /* Assets.xcassets in Resources */,
 				153A201C2C7B76D800D4074B /* Base in Resources */,
 				153A20172C7B76D500D4074B /* Base in Resources */,
@@ -294,7 +314,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9NK43SQGVH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Memes/Info.plist;
+				INFOPLIST_FILE = Memes/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9NK43SQGVH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Memes/Info.plist;
+				INFOPLIST_FILE = Memes/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
